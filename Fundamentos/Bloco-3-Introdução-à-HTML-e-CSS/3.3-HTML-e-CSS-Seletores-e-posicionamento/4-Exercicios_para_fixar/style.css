@@ -1,0 +1,11 @@
+.ordenada{
+    background-color: yellow;
+}
+
+.imparOuPar:nth-of-type(even){
+    color: green;
+}
+
+.imparOuPar:nth-of-type(odd){
+    text-transform: uppercase;
+}
