@@ -9,3 +9,13 @@
 .imparOuPar:nth-of-type(odd){
     text-transform: uppercase;
 }
+
+h1,h2,h3{
+    color: red;
+}
+
+.italicoComRede em{
+    font-size: 40px;
+}
+
+
