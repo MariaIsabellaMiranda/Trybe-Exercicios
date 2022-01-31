@@ -1,4 +1,4 @@
-.ordenada{
+ol{
     background-color: yellow;
 }
 
@@ -25,4 +25,36 @@ li{
 
 li em{
     font-weight: bold;
+}
+
+.semJava{
+    color: blue;
+}
+
+.comJava{
+    background-color: pink;
+}
+
+li a:hover{
+    font-weight: bold;
+}
+
+.ancora:nth-of-type(1) :hover {
+    color: orange;
+}
+
+.ancora:nth-of-type(2) :hover {
+    color: green;
+}
+
+.ancora:nth-of-type(3) :hover {
+    color: black;
+}
+
+.ancora:nth-of-type(4) :hover {
+    color: yellow;
+}
+
+.ancora:nth-of-type(5) :hover {
+    color: green;
 }
