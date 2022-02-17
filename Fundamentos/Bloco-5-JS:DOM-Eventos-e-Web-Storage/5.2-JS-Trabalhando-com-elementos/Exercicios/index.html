@@ -19,7 +19,7 @@
       }
 
       .main-content .center-content {
-        background-color: red;
+        background-color: green;
         width: 50%;
         margin-left: auto;
         margin-right: auto;
@@ -47,7 +47,7 @@
         background-color: blue;
         width: 60%;
         margin-left: auto;
-        margin-right: 0;
+        margin-right: auto;
       }
 
       .main-content .description {
@@ -58,14 +58,6 @@
   <body>
     <script>
       let pegaOBody = document.querySelector('body');
-      // // pegaOBody.className = 'paiDeTodos';
-      // let titulo = document.createElement('h1');
-      // titulo.innerText = 'Exercício 5.2 - JavaScript DOM';
-      // pegaOBody.appendChild(titulo)
-      
-      // let pai = document.createElement('main');
-      // pai.className = 'main-content';
-      // pegaOBody.appendChild(pai);
 
       function criaElement(element, classes) {
         let newElement = document.createElement(element);
@@ -77,9 +69,8 @@
         pai.appendChild(elementCriado)
       }
 
-
-      adicionaElement(pegaOBody, criaElement('h1', 'titulo'));
-      let titulo = document.querySelector('.titulo').innerText = 'Exercício 5.2 - JavaScript DOM';
+      adicionaElement(pegaOBody, criaElement('h1', 'title'));
+      let titulo = document.querySelector('.title').innerText = 'Exercício 5.2 - JavaScript DOM';
 
       adicionaElement(pegaOBody, criaElement('main', 'main-content'));
       let pai = document.querySelector('.main-content');
@@ -99,11 +90,21 @@
       let imagem = document.querySelector('img').src = "https://picsum.photos/200";
 
       let sessaoPaiLista = document.querySelector('.right-content');
-      adicionaElement(sessaoPaiLista, criaElement('ol', 'listaNOrdenada'));
+      adicionaElement(sessaoPaiLista, criaElement('ul', 'listaNOrdenada'));
       let lista = document.querySelector('.listaNOrdenada')
-      
+      let newLi = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+      for (let index = 0; index < newLi.length; index += 1) {
+        // let listaLi = newLi[index];
+        let listaLiItens = document.createElement('li')
+        lista.appendChild(listaLiItens).innerText = newLi[index];
+      }
+      adicionaElement(pai, criaElement('h3', 'description'));
+      adicionaElement(pai, criaElement('h3', 'description'));
+      adicionaElement(pai, criaElement('h3', 'description'));
 
-
+      pai.removeChild(sessaoPaiImagem);
+      lista.lastChild.remove();
+      lista.lastChild.remove();
     </script>
   </body>
 </html>
