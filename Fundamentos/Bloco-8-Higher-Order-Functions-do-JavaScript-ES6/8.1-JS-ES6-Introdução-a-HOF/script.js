@@ -49,23 +49,49 @@
 
 // Exercício 3:
 
-const verificacao = (gabarito, resposta) => {
-  let pontuacao = 0;
-  let respostasCertas = 0;
-  for (i = 0; i < gabarito.length; i += 1) {
-    if (gabarito[i] === resposta[i]) {
-      respostasCertas += 1;
-      pontuacao += 1;
-    } else if (gabarito[i] !== resposta[i] && resposta[i] !== 'N.A' ) {
-      pontuacao -= 0.5;
-    }
-  }
-  return pontuacao;
-}
+// const gabarito = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
+// const respostasEstudante = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
 
-const checaProva = (gabarito, respostas, callback) => {
-  callback(gabarito, respostas)
-  return total;
-}
+// const verificacao = (gabarito, resposta) => {
+//     if (gabarito === resposta) {
+//       return 1;
+//     } else if (resposta === 'N.A' ) {
+//       return 0;
+//     } else {
+//       return -0.5
+//     }
+// };
 
-console.log(checaProva(['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'], ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'], verificacao));
+// const checaProva = (gabarito, respostas, callback) => {
+//   let pontuacao = 0;
+//   for (i = 0; i < gabarito.length; i += 1) {
+//     pontuacao += verificacao(gabarito[i], respostas[i]);
+//   }
+//   return `Pontuação final: ${pontuacao}`;
+// }
+
+// console.log(checaProva(gabarito, respostasEstudante, verificacao));
+
+// Exercícios Bônus:
+
+// const mage = {
+//   healthPoints: 130,
+//   intelligence: 45,
+//   mana: 125,
+//   damage: undefined,
+// };
+
+// const warrior = {
+//   healthPoints: 200,
+//   strength: 30,
+//   weaponDmg: 2,
+//   damage: undefined,
+// };
+
+// const dragon = {
+//   healthPoints: 350,
+//   strength: 50,
+//   damage: undefined,
+// };
+
+// const battleMembers = { mage, warrior, dragon };
