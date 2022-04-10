@@ -9,6 +9,6 @@ function App() {
       <Pokedex poke={pokemons} />
     </>
   );
-}
+};
 
 export default App;
