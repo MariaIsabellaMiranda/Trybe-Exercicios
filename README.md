@@ -75,37 +75,37 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 - [X] 2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 - [X] 3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [X] 4: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 6: _[Projeto - Zoo functions]()_
+- [X] 5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [X] 6: _[Projeto - Zoo functions]()_
 
 #### Bloco 9: JavaScript e Testes Assíncronos
 
-- [ ] 1: _JavaScript Assíncrono e Callbacks_
-- [ ] 2: _JavaScript Assíncrono - Fetch API e async/await_
-- [ ] 3: _Jest - Testes Assíncronos_
-- [ ] 4: _[Projeto - Carrinho de Compras]()_
+- [X] 1: _JavaScript Assíncrono e Callbacks_
+- [X] 2: _JavaScript Assíncrono - Fetch API e async/await_
+- [X] 3: _Jest - Testes Assíncronos_
+- [X] 4: _[Projeto - Carrinho de Compras]()_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 #### Bloco 10: Introdução à React
 
-- [ ] 1: _Introdução - Front-end_
-- [ ] 1: _Introdução - React_
-- [ ] 1: _'Hello, world!' no React!_
-- [ ] 2: _Componentes React_
-- [ ] 3: _[Projeto - Sistema Solar]()_
+- [X] 1: _Introdução - Front-end_
+- [X] 1: _Introdução - React_
+- [X] 1: _'Hello, world!' no React!_
+- [X] 2: _Componentes React_
+- [X] 3: _[Projeto - Sistema Solar]()_
 
 #### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 
-- [ ] 1: _Components com estado e eventos_
-- [ ] 2: _Formulários no React_
-- [ ] 3: _[Projeto - Tryunfo]()_
+- [X] 1: _Components com estado e eventos_
+- [X] 2: _Formulários no React_
+- [X] 3: _[Projeto - Tryunfo]()_
 
 #### Bloco 12: Ciclo de Vida de Componentes e React Router
 
-- [ ] 1: _Ciclo de vida de componentes_
-- [ ] 2: _React Router_
-- [ ] 3: _[Projeto - TrybeTunes]()_
+- [X] 1: _Ciclo de vida de componentes_
+- [X] 2: _React Router_
+- [X] 3: _[Projeto - TrybeTunes]()_
 
 #### Bloco 13: Metodologias Ágeis
 
