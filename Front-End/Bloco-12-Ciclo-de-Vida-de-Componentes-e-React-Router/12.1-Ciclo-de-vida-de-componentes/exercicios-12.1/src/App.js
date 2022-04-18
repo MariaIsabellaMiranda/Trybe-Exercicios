@@ -1,43 +1,59 @@
-import React from 'react';
 import './App.css';
+import React from 'react';
 
 class App extends React.Component {
-  constructor(props){
-    super(props);
+  constructor() {
+    super();
     this.state = {
-        characters: [],
+      dog: '',
+      loading: true,
+      dogsSalvos: [],
+      inputDog: '',
     };
-  }
-  
-  fetchCharacters = () => {
-    fetch('https://rickandmortyapi.com/api/character')
-    .then(response => response.json())
-    .then(data => {
-      this.setState({characters: data.results})
-    })
+    this.fetchdog = this.fetchdog.bind(this);
   }
 
-  componentDidMount() {
-    this.fetchCharacters();
+  async fetchdog() {
+    this.setState({
+      loading: true
+      }, async () =>  {
+        const url = 'https://dog.ceo/api/breeds/image/random'
+        const response = await fetch(url);
+        const data = await response.json();
+        this.setState({
+          dog: data.message,
+          loading: false,
+        })
+      }
+    )
+  }
+
+  async componentDidMount() {
+    await this.fetchdog();
+  }
+
+  shouldComponentUpdate(_nextProps, nextState) {
+    if (nextState.dog.includes('terrier')) {
+      return false;
+    } return true;
+  }
+
+  componentDidUpdate() {
+    const { dog } = this.state;
+    localStorage.setItem('urlImagemDog', dog);
+    const raça = dog.split('/')[4];
+    alert(raça);
   }
 
   render() {
-    const { characters } = this.state;
+    const load = <span>Loading...</span>;
+    const { dog, loading } = this.state;
+    const imagem = <img src={ dog } alt="doguinho"></img>
+
     return (
-      <div className="App">
-        <h1>
-          Ricky and Morty Characters:
-        </h1>
-        <div className="body">
-          {characters.map(({ name, image }) => {
-            return (
-              <div className="container" key={name}>
-                <h3>{name}</h3>
-                <img src={image} alt={name}/>
-              </div>
-            )
-          })}
-        </div>
+      <div>
+        { loading ? load : imagem }
+        <button type='button' onClick={ this.fetchdog }>Próximo Dog</button>
       </div>
     );
   }
