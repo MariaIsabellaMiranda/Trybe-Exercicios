@@ -109,58 +109,58 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 #### Bloco 13: Metodologias Ágeis
 
-- [ ] 1: _Metodologias Ágeis_
-- [ ] 2: _[Projeto - Frontend Online Store]()_
+- [X] 1: _Metodologias Ágeis_
+- [X] 2: _[Projeto - Frontend Online Store]()_
 
 #### Bloco 14: Testes automatizados com React Testing Library
 
-- [ ] 1: _RTL - Primeiros passos_
-- [ ] 2: _RTL - Mocks e Inputs_
-- [ ] 3: _RTL - Testando React Router_
-- [ ] 4: _[Projeto - Testes em React]()_
+- [X] 1: _RTL - Primeiros passos_
+- [X] 2: _RTL - Mocks e Inputs_
+- [X] 3: _RTL - Testando React Router_
+- [X] 4: _[Projeto - Testes em React]()_
 
 #### Bloco 15: Gerenciamento de estado com Redux
 
-- [ ] 1: _Introdução ao Redux - O estado global da aplicação_
-- [ ] 2: _Usando o Redux no React_
-- [ ] 3: _Usando o Redux no React - Prática_
-- [ ] 4: _Usando o Redux no React - Actions Assíncronas_
-- [ ] 5: _Testes em React-Redux_
-- [ ] 6: _[Projeto - Trybe Wallet]()_
+- [X] 1: _Introdução ao Redux - O estado global da aplicação_
+- [X] 2: _Usando o Redux no React_
+- [X] 3: _Usando o Redux no React - Prática_
+- [X] 4: _Usando o Redux no React - Actions Assíncronas_
+- [X] 5: _Testes em React-Redux_
+- [X] 6: _[Projeto - Trybe Wallet]()_
 
 #### Bloco 16: Projeto Jogo de Trivia
 
-- [ ] 1: _[Projeto - Jogo de Trivia]()_
+- [X] 1: _[Projeto - Jogo de Trivia]()_
 
 #### Bloco 17: React & Context API
 
-- [ ] 1: _Context API do React_
-- [ ] 2: _React Hooks - useState e useContext_
-- [ ] 3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [X] 1: _Context API do React_
+- [X] 2: _React Hooks - useState e useContext_
+- [X] 3: _React Hooks - useEffect e Hooks customizados_
+- [X] 4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 
 #### Bloco 18: Projeto App de Receitas
 
-- [ ] 1: _[Projeto - App de Receitas]()_
+- [X] 1: _[Projeto - App de Receitas]()_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
 #### BBloco 19: Docker: Utilizando Containers
 
-- [ ] 1: _Introdução - Back-end_
-- [ ] 1: _Utilizando Containers - Docker_
-- [ ] 2: _Manipulação e Criação de Imagens no Docker_
-- [ ] 3: _Orquestrando Containers com Docker Compose_
-- [ ] 4: _[Projeto - Docker Todo-list]()_
+- [X] 1: _Introdução - Back-end_
+- [X] 1: _Utilizando Containers - Docker_
+- [X] 2: _Manipulação e Criação de Imagens no Docker_
+- [X] 3: _Orquestrando Containers com Docker Compose_
+- [X] 4: _[Projeto - Docker Todo-list]()_
 
 #### Bloco 20: Introdução à SQL
 
-- [ ] 1: _Introdução - Bancos de dados relacionais_
-- [ ] 1: _Banco de dados SQL_
-- [ ] 2: _Encontrando dados em um banco de dados_
-- [ ] 3: _Filtrando dados de forma específica_
-- [ ] 4: _Manipulando tabelas
-- [ ] 5: _[Projeto - All For One]()_
+- [X] 1: _Introdução - Bancos de dados relacionais_
+- [X] 1: _Banco de dados SQL_
+- [X] 2: _Encontrando dados em um banco de dados_
+- [X] 3: _Filtrando dados de forma específica_
+- [X] 4: _Manipulando tabelas
+- [X] 5: _[Projeto - All For One]()_
 
 #### Bloco 21: Funções SQL, JOINs e Normalização
 
