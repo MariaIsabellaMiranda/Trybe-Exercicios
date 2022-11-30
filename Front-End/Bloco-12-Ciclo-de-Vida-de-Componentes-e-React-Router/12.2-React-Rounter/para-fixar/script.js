@@ -6,4 +6,4 @@ function tripleTheChances(chances) {
   return multiplicandoPor3;
 }
 
-console.log(tripleTheChances());
+// console.log(tripleTheChances());

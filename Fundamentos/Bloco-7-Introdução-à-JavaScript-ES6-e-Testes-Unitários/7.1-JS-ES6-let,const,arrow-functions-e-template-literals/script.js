@@ -17,5 +17,6 @@
 
 //   console.log(`Os números ${oddsAndEvens} se encontram de forma crescente!`);
 
-const fatorial = (number) => number > 1 ? number * fatorial(number - 1) : 1;
-console.log(fatorial(5));
+// const fatorial = (number) => number > 1 ? number * fatorial(number - 1) : 1;
+// console.log(fatorial(5));
+
