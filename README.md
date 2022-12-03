@@ -164,98 +164,98 @@ O programa conta com mais de 1.500 horas de aulas online ao vivo, aborda introdu
 
 #### Bloco 21: Funções SQL, JOINs e Normalização
 
-- [ ] 1: _Funções mais usadas no SQL_
-- [ ] 2: _Descomplicando JOINs_
-- [ ] 3: _Transformando ideias em um modelo de banco de dados_
-- [ ] 4: _[Projeto - One For All]()_
+- [X] 1: _Funções mais usadas no SQL_
+- [X] 2: _Descomplicando JOINs_
+- [X] 3: _Transformando ideias em um modelo de banco de dados_
+- [X] 4: _[Projeto - One For All]()_
 
 #### Bloco 22: Introdução ao desenvolvimento Web com Node.js
 
-- [ ] 1: _Intro - Node.js_
-- [ ] 1: _Node.js - Um motor JavaScript_
-- [ ] 2: _Node.js - Fluxo assíncrono_
-- [ ] 3: _Mocha, Chai, Sinon - Testes de Back-end com Node.js_
-- [ ] 4: _Express - HTTP com Node.js_
-- [ ] 5: _Express - Middlewares_
-- [ ] 6: _[Projeto - Talker Manager]()_
+- [X] 1: _Intro - Node.js_
+- [X] 1: _Node.js - Um motor JavaScript_
+- [X] 2: _Node.js - Fluxo assíncrono_
+- [X] 3: _Mocha, Chai, Sinon - Testes de Back-end com Node.js_
+- [X] 4: _Express - HTTP com Node.js_
+- [X] 5: _Express - Middlewares_
+- [X] 6: _[Projeto - Talker Manager]()_
 
 #### Bloco 23: Node.js: Camada de Serviço e Arquitetura Rest e Restful
 
-- [ ] 1: _Introdução - Arquitetura de Software_
-- [ ] 1: _Arquitetura de Software - Camada de Model_
-- [ ] 2: _Arquitetura de Software - Camada de Controller e Service_
-- [ ] 3: _Arquitetura Web - Rest e Restful_
-- [ ] 4: _Arquitetura de Software - Testando as Camadas_
-- [ ] 5: _[Projeto - Store Manager]()_
+- [X] 1: _Introdução - Arquitetura de Software_
+- [X] 1: _Arquitetura de Software - Camada de Model_
+- [X] 2: _Arquitetura de Software - Camada de Controller e Service_
+- [X] 3: _Arquitetura Web - Rest e Restful_
+- [X] 4: _Arquitetura de Software - Testando as Camadas_
+- [X] 5: _[Projeto - Store Manager]()_
 
 #### Bloco 24: Node.js: ORM e Autenticação
 
-- [ ] 1: _Introdução - Node.js: ORM e Autenticação_
-- [ ] 1: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 2: _ORM - Associations_
-- [ ] 3: _JWR - JSON Web Token_
-- [ ] 4: _[Projeto - API de Blogs]()_
+- [X] 1: _Introdução - Node.js: ORM e Autenticação_
+- [X] 1: _ORM - Interface da aplicação com o banco de dados_
+- [X] 2: _ORM - Associations_
+- [X] 3: _JWR - JSON Web Token_
+- [X] 4: _[Projeto - API de Blogs]()_
 
 #### Bloco 25: Deployment
 
-- [ ] 1: _Introdução - Deploy_
-- [ ] 1: _Infraestrutura - Deploy com Heroku_
-- [ ] 2: _Deploy Docker & Heroku_
-- [ ] 3: _[Projeto - Stranger Things]()_
+- [X] 1: _Introdução - Deploy_
+- [X] 1: _Infraestrutura - Deploy com Heroku_
+- [X] 2: _Deploy Docker & Heroku_
+- [X] 3: _[Projeto - Stranger Things]()_
 
 #### Bloco 26: TypeScript
 
-- [ ] 1: _Introdução - TypeScript_
-- [ ] 1: _Introdução ao TypeScript_
-- [ ] 2: _Tipagem Estática e Generics_
-- [ ] 3: _Express com TypeScript_
-- [ ] 4: _[Projeto Trybe Smith]()_
+- [X] 1: _Introdução - TypeScript_
+- [X] 1: _Introdução ao TypeScript_
+- [X] 2: _Tipagem Estática e Generics_
+- [X] 3: _Express com TypeScript_
+- [X] 4: _[Projeto Trybe Smith]()_
 
 #### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
 
-- [ ] 1: _Introdução à Orientação a Objetos_
-- [ ] 2: _Herança e Interfaces_
-- [ ] 3: _Polimorfismo_
-- [ ] 4: _SOLID - Introdução_
-- [ ] 5: _SOLID - Continuação_
-- [ ] 6: _[Projeto - Trybers and Dragons]()_
+- [X] 1: _Introdução à Orientação a Objetos_
+- [X] 2: _Herança e Interfaces_
+- [X] 3: _Polimorfismo_
+- [X] 4: _SOLID - Introdução_
+- [X] 5: _SOLID - Continuação_
+- [X] 6: _[Projeto - Trybers and Dragons]()_
 
 #### Bloco 28: Projeto - TFC - Trybe Futebol Clube
 
-- [ ] 1: _[Projeto - TFC - Trybe Futebol Clube]()_
+- [X] 1: _[Projeto - TFC - Trybe Futebol Clube]()_
 
 #### Bloco 29: Introdução ao MongoDB
 
-- [ ] 1: _Introdução - NoSQL_
-- [ ] 1: _MongoDB - Introdução_
-- [ ] 2: _Filter Operators_
-- [ ] 3: _[Projeto - DataFlights]()_
+- [X] 1: _Introdução - NoSQL_
+- [X] 1: _MongoDB - Introdução_
+- [X] 2: _Filter Operators_
+- [X] 3: _[Projeto - DataFlights]()_
 
 #### Bloco 30: MongoDB: Updates Simples e Complexos
 
-- [ ] 1: _Updates Simples_
-- [ ] 2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 4: _[Projeto - Commerce]()_
+- [X] 1: _Updates Simples_
+- [X] 2: _Updates Complexos - Arrays - Parte 1_
+- [X] 3: _Updates Complexos - Arrays - Parte 2_
+- [X] 4: _[Projeto - Commerce]()_
 
 #### MasterClass - VPS, CI/CD
 
-- [ ] 1: _Dia 1_
-- [ ] 2: _Dia 2_
+- [X] 1: _Dia 1_
+- [X] 2: _Dia 2_
 
 #### Bloco 32: Projeto - App de Delivery
 
-- [ ] 1: _[Projeto - App de Delivery]()_
+- [X] 1: _[Projeto - App de Delivery]()_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
 #### Bloco 33: Introdução à Python
 
-- [ ] 1: _Introdução - Ciência da Computação_
-- [ ] 2: _Aprendendo Python_
-- [ ] 2: _Entrada e Saída de Dados_
-- [ ] 3: _Testes_
-- [ ] 4: _[Projeto - Job Insights]()_
+- [X] 1: _Introdução - Ciência da Computação_
+- [X] 2: _Aprendendo Python_
+- [X] 2: _Entrada e Saída de Dados_
+- [X] 3: _Testes_
+- [X] 4: _[Projeto - Job Insights]()_
 
 #### Bloco 34: Programação Orientada a Objetos e Padrões de Projeto
 
